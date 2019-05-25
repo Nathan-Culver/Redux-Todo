@@ -1,5 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
+import { updateTitle } from '../actions';
 
  class Title extends React.Component {
     state = {
